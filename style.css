@@ -1,0 +1,15 @@
+h1 {
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.unordered {
+    font-size: 22px;
+}
+
+a {
+    font-family: Georgia, 'Times New Roman', sans-serif;
+    font-weight: 800;
+    color: rgb(200,100,255);
+}
