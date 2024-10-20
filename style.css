@@ -1,15 +1,48 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace
+}
+
+h1, .list-border {
+    width: 300px;
+    border-radius: 5px;
+    border-width: 3px;
+}
+
 h1 {
-    background-color: red;
-    color: white;
+    text-align: center;
+    border: solid black;
+    padding: 8px 10px 8px 0px;
+    background-color: darkgoldenrod;
+    color: whitesmoke;
+}
+
+.list-border {
+    font-size: 22px;
+    padding-left: 10px;
+    border: dashed blue;
+}
+
+p {
+    font-weight: 600;
+    margin: 4px;
     text-align: center;
 }
 
-.unordered {
-    font-size: 22px;
+ul {
+    margin-top: 8px;
+}
+
+li {
+    margin-bottom: 8px;
 }
 
 a {
-    font-family: Georgia, 'Times New Roman', sans-serif;
     font-weight: 800;
-    color: rgb(200,100,255);
+    color: rgb(94, 67, 0);
+}
+
+#logo {
+    height: 40px;
+    width: auto;
 }
