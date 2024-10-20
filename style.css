@@ -46,3 +46,8 @@ a {
     height: 40px;
     width: auto;
 }
+
+.highlight {
+    background-color: rgb(212, 167, 51);
+    border: solid 2px;
+}
